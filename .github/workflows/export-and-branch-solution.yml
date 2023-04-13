@@ -9,7 +9,7 @@ on:
       solution_name:
         description: 'name of the solution to worked on from Power Platform'
         required: true
-        default: demosolution
+        default: pgrsolution
        #Do Not change these values
       solution_exported_folder:
         description: 'folder name for staging the exported solution *do not change*'
@@ -25,8 +25,8 @@ on:
        default: solutions/
 env:
 #edit your values here
-  ENVIRONMENT_URL: 'https://orga7b99cbf.crm.dynamics.com'
-  CLIENT_ID: 'db486c1d-ad9f-468b-88b0-c42384aa71de'
+  ENVIRONMENT_URL: 'https://org04e27aaa.crm.dynamics.com'
+  CLIENT_ID: '0f5352af-e682-4c17-a0cd-c37abfbc8b47'
   TENANT_ID: '36c0dca9-f22c-4e0c-aa83-c311fcba0830'
 permissions:
   contents: write
